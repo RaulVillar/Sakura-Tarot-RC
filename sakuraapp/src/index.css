@@ -1,3 +1,24 @@
+
+@font-face {
+    font-family: "Sakura";
+    src: url(/Fonts/Garton.ttf);
+}
+
+* {
+    font-family: "Sakura";
+    background-color: rgb(242, 252, 204);
+}
 .cards-img {
     margin:5vh;
+}
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title_header {
+    font-size: 5vh;
+    text-align: center;
 }
