@@ -16,7 +16,7 @@ export class Api extends React.Component {
 
 	// ComponentDidMount is used to
 	// execute the code
-	getApi() {
+	componentDidMount() {
 		fetch(sakuraUrl)
 			.then((response) => response.json())
 			.then((json) => {
@@ -40,11 +40,8 @@ export class Api extends React.Component {
 				<div class="cards" key ={ item.id} id = {item.spanishName} >
 					<img class="cards_img" src={item.sakuraCard}></img>					
 				</div>
-				
 				))
 			}	
 		</div>
 	);}
 }
-
-
