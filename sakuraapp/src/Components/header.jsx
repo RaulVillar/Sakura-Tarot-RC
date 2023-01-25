@@ -1,9 +1,8 @@
-import React from 'react'
 
-export const Header = () => {
+ export const Header = () => {
     return (
         <div>
-            <h1 class="title_header">Sakura Tarot</h1>
+            <h1 className="title_header">Sakura Tarot</h1>
         </div>
     )
 }

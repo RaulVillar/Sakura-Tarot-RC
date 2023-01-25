@@ -1,6 +1,7 @@
 import React from "react";
 import '../index.css'
 import { shuffleArray } from "./Random"
+import { Header } from "./header"
 
 let sakuraUrl = " https://6388b6e5a4bb27a7f78f96a5.mockapi.io/sakura-cards/";
 
@@ -39,11 +40,14 @@ export class Api extends React.Component {
 
 		return (
 		<div className = "App">
+			<Header />
 			<h2> Las cartas del fuuutuuurooooo </h2>
 			{	
 			shuffleArray(items).map((item) => (
-					<img key={item[0].id} class="cards-img" src={item[0].sakuraCard}></img>))}	
+					<img key={item[0].id} className="cards-img" src={item[0].sakuraCard}></img>))}
+					
 		</div>
 		
 		);}
+		
 	}
