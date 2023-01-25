@@ -1,5 +1,7 @@
 import React from "react";
 import '../index.css'
+import { shuffleArray } from "./Random"
+
 let sakuraUrl = " https://6388b6e5a4bb27a7f78f96a5.mockapi.io/sakura-cards/";
 
 export class Api extends React.Component {
@@ -16,13 +18,15 @@ export class Api extends React.Component {
 
 	// ComponentDidMount is used to
 	// execute the code
-	getApi() {
+	componentDidMount() {
 		fetch(sakuraUrl)
 			.then((response) => response.json())
 			.then((json) => {
 				this.setState({
 					items: json,
 					DataisLoaded: true
+				
+					
 				});
 			})
 	}
@@ -35,16 +39,11 @@ export class Api extends React.Component {
 
 		return (
 		<div className = "App">
-			<h2> Las cartas del fuuutuuurooooo </h2> {
-				items.map((item) => (
-				<div class="cards" key ={ item.id} id = {item.spanishName} >
-					<img class="cards_img" src={item.sakuraCard}></img>					
-				</div>
-				
-				))
-			}	
+			<h2> Las cartas del fuuutuuurooooo </h2>
+			{	
+			shuffleArray(items).map((item) => (
+					<img key={item[0].id} class="cards-img" src={item[0].sakuraCard}></img>))}	
 		</div>
-	);}
-}
-
-
+		
+		);}
+	}
