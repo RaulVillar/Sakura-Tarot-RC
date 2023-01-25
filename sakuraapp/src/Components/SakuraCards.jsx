@@ -44,6 +44,5 @@ export class Api extends React.Component {
 			shuffleArray(items).map((item) => (
 					<img key={item[0].id} class="cards-img" src={item[0].sakuraCard}></img>))}	
 		</div>
-		
 		);}
 	}
