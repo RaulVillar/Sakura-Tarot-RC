@@ -2,7 +2,7 @@ import React from "react";
 import '../index.css'
 import { shuffleArray } from "./Random"
 import { Header } from "./Header"
-
+import { Footer } from "./Footer"
 
 let sakuraUrl = " https://6388b6e5a4bb27a7f78f96a5.mockapi.io/sakura-cards/";
 
