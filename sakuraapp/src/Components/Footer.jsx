@@ -1,7 +1,8 @@
+
 export const Footer = () => {
     return (
         <div className="footer">
-           <p className="footer-copy">CopyRight: Sakura Brothers</p>
+           <img className="footer-copy" src={}>Sakura Brothers</p>
         </div>
     )
 }
