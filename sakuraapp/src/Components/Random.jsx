@@ -6,9 +6,9 @@ export function shuffleArray(arr){
    
     const output =[] ;
     
-    while (copy.length > 0) {
+    while (output.length<5) {
        
-        output.push(copy.splice(Math.floor(Math.random() * copy.length), 1));
+         output.push(copy.splice(Math.floor(Math.random() * copy.length), 1)) ;
     }
     
     return output;
