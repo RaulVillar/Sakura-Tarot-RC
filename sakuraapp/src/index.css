@@ -42,11 +42,20 @@
     display: flex;
     justify-content: space-around;
 }
-
+.footer-company {
+    display: flex;
+    align-items: center;
+    background-color: pink;
+}
 .footer-copy{
+    height: 3vh;
+    background-color: pink;
+}
+.footer-text {
     font-size: 3vh;
     background-color: pink;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+.footer-sakura {
+    background-color: pink;
+
 }
