@@ -7,12 +7,33 @@
 * {
     font-family: "Sakura";
     background-color: rgb(242, 252, 204);
+    padding: 0;
+    margin: 0;
 }
 .cards-img {
     margin:5vh;
 }
 
-.title_header {
-    font-size: 5vh;
+.title-header {
+    font-size: 8vh;
     text-align: center;
+    color: pink;
+    letter-spacing: 0.7vh;
+    -webkit-text-stroke: 0.1px black;
+
+}
+
+.sakuraCards {
+    text-align: center;
+    margin-top: 4vh;
+}
+
+.sakuraCards-title {
+    margin-top: 8vh;
+    font-size: 5vh;
+    letter-spacing: 0.5vh;
+}
+
+.sakuraCards-line {
+    margin-top: 5vh;
 }
