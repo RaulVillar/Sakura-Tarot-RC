@@ -13,7 +13,7 @@
     margin: 0;
 }
 .cards-img {
-    margin:5vh;
+    margin:7vh;
 }
 
 .title-header {
@@ -21,7 +21,7 @@
     text-align: center;
     color: pink;
     letter-spacing: 0.7vh;
-    -webkit-text-stroke: 0.1px black;
+    -webkit-text-stroke: 0.010741138560687433vh black;
 
 }
 

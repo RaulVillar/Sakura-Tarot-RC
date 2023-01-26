@@ -58,7 +58,6 @@ export class Api extends React.Component {
 				</div>
 				<Footer />
 			</div>
-
 		);
 	}
 
