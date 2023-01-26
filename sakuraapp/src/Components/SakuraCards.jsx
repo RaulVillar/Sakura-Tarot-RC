@@ -27,6 +27,8 @@ export class Api extends React.Component {
 				});
 			})
 	}
+
+	
 	render() {
 		const { DataisLoaded, items } = this.state;
 		if (!DataisLoaded) return
@@ -37,31 +39,29 @@ export class Api extends React.Component {
 		return (
 			<div className="sakuraCards">
 				<Header />
-				<hr className="sakuraCards-line"/>
+				<hr className="sakuraCards-line" />
 				<div>
 					<h2 className="sakuraCards-title">Pasado</h2>
 					{
 						shuffleArray(items).map((item) => (
-							<img key={item[0].id} id={item[0].id} className="cards-img" src={item[0].cardsReverse.sakuraReverse}/>
-							))}
+						<img onClick={() => document.getElementById (item[0].id).src=item[0].sakuraCard} id={item[0].id} key={item[0].id} className="cards-img" src={item[0].cardsReverse.sakuraReverse}></img>
+						))}
 				</div>
 				<div>
 					<h2 className="sakuraCards-title">Presente</h2>
 					{
 						shuffleArray(items).map((item) => (
-							<img key={item[0].id} className="cards-img" src={item[0].cardsReverse.sakuraReverse}></img>))}
+						<img onClick={() => document.getElementById (item[0].id).src=item[0].sakuraCard} id={item[0].id} key={item[0].id} className="cards-img" src={item[0].cardsReverse.sakuraReverse}></img>))}
 				</div>
 				<div>
 					<h2 className="sakuraCards-title">Futuro</h2>
 					{
 						shuffleArray(items).map((item) => (
-							<img key={item[0].id} className="cards-img" src={item[0].cardsReverse.sakuraReverse}></img>))}
+						<img onClick={() => document.getElementById (item[0].id).src=item[0].sakuraCard} key={item[0].id} className="cards-img" src={item[0].cardsReverse.sakuraReverse}></img>))}
 				</div>
 				<Footer />
 			</div>
-
 		);
 	}
-
 }
 
