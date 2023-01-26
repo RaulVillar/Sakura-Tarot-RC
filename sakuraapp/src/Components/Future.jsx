@@ -1,10 +1,10 @@
 import React from "react";
 import { shuffleArray } from "./Random";
 
-export class future extends React.Component {
+export class Future extends React.Component {
   render() {
     return (
-		<div className = "present_cards">
+		<div className = "future-cards">
 			<h2>Futuro</h2>
 			{	
 			shuffleArray(items).map((item) => (
