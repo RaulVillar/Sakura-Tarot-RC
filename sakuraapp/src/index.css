@@ -28,4 +28,7 @@
 .footer-copy{
     font-size: 3vh;
     background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
