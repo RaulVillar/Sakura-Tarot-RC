@@ -42,6 +42,7 @@
     display: flex;
     justify-content: space-around;
 }
+
 .footer-copy{
     font-size: 3vh;
     background-color: pink;
