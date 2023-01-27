@@ -51,13 +51,15 @@ export class Api extends React.Component {
 					<h2 className="sakuraCards-title">Presente</h2>
 					{
 						shuffleArray(items).map((item) => (
-						<img onClick={() => document.getElementById (item[0].id).src=item[0].sakuraCard} id={item[0].id} key={item[0].id} className="cards-img" src={item[0].cardsReverse.sakuraReverse}></img>))}
+						<img onClick={() => document.getElementById (item[0].id).src=item[0].sakuraCard} id={item[0].id} key={item[0].id} className="cards-img" src={item[0].cardsReverse.sakuraReverse}></img>
+						))}
 				</div>
 				<div>
 					<h2 className="sakuraCards-title">Futuro</h2>
 					{
 						shuffleArray(items).map((item) => (
-						<img onClick={() => document.getElementById (item[0].id).src=item[0].sakuraCard} key={item[0].id} className="cards-img" src={item[0].cardsReverse.sakuraReverse}></img>))}
+						<img onClick={() => document.getElementById (item[0].id).src=item[0].sakuraCard} id={item[0].id} key={item[0].id} className="cards-img" src={item[0].cardsReverse.sakuraReverse}></img>
+						))}
 				</div>
 				<Footer />
 			</div>
