@@ -13,9 +13,13 @@
     margin: 0;
 }
 .cards-img {
+    margin:5vh;
+    
+}
+.cards-img-obverse{
+    display: none;
     margin:7vh;
 }
-
 .title-header {
     font-size: 8vh;
     text-align: center;
