@@ -37,7 +37,7 @@ export class Api extends React.Component {
 		<div>
 			<h1> Please wait some time.... </h1>
 		</div>;
-
+		
 		return (
 			
 			<div className="sakuraCards">
