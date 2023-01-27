@@ -36,8 +36,14 @@
 
 .sakuraCards-title {
     margin-top: 8vh;
-    font-size: 5vh;
+    font-size: 7vh;
     letter-spacing: 0.5vh;
+}
+.meaning {
+    font-size: 4vh;
+}
+#yourFuture {
+    margin-bottom: 5vh;
 }
 .footer {
     background-color: pink;

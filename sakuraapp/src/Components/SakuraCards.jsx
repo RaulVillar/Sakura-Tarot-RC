@@ -1,8 +1,10 @@
 import React from "react";
 import '../index.css'
-import { shuffleArray } from "./Random"
 import { Header } from "./Header"
 import { Footer } from "./Footer"
+import { PastCards } from "./Past";
+import { PresentCards } from "./Present"
+import { FutureCards } from "./Future"
 
 let sakuraUrl = " https://6388b6e5a4bb27a7f78f96a5.mockapi.io/sakura-cards/";
 
@@ -14,7 +16,6 @@ export class Api extends React.Component {
 		this.state = {
 			items: [],
 			DataisLoaded: false,
-			
 		};
 	}
 
@@ -32,6 +33,8 @@ export class Api extends React.Component {
 
 	
 	render() {
+		
+		
 		const { DataisLoaded, items} = this.state;
 		if (!DataisLoaded) return
 		<div>
@@ -39,33 +42,19 @@ export class Api extends React.Component {
 		</div>;
 
 		return (
-			
 			<div className="sakuraCards">
 				<Header />
 				<hr className="sakuraCards-line" />
 				<div>
 					<h2 className="sakuraCards-title">Pasado</h2>
-					{
-						shuffleArray(items).map((item) => (
-						<img onClick={() =>{(document.getElementById (item[0].id).src=item[0].sakuraCard) && (document.getElementById("yourPast").innerHTML=item[0].meaning)}} id={item[0].id} key={item[0].id} className="cards-img" src={item[0].cardsReverse.sakuraReverse}></img>
-					  ))}
-						<h2 id="yourPast"></h2>
+				<PastCards />	
 				</div>
 				<div>
-					<h2 className="sakuraCards-title">Presente</h2>
-					{
-						shuffleArray(items).map((item) => (
-							
-						<img onClick={() => {(document.getElementById (item[0].spanishName).src=item[0].sakuraCard) && (document.getElementById("yourPresent").innerHTML=item[0].meaning)}} id={item[0].spanishName} key={item[0].id} className="cards-img" src={item[0].cardsReverse.sakuraReverse}></img>		
-						))}
-					<h2 id="yourPresent"></h2>	
+				<PresentCards />
 				</div>
 				<div>
 					<h2 className="sakuraCards-title">Futuro</h2>
-					{
-						shuffleArray(items).map((item) => (
-						<img onClick={() => (document.getElementById (item[0].englishName).src=item[0].sakuraCard) && (document.getElementById("yourFuture").innerHTML=item[0].meaning)} id={item[0].englishName} key={item[0].id} className="cards-img" src={item[0].cardsReverse.sakuraReverse}></img>))}
-						<h2 id="yourFuture"></h2>
+				<FutureCards />
 				</div>
 				
 				<Footer />
