@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: "Sakura";
     src: url(/Fonts/Garton.ttf);
@@ -12,54 +11,94 @@
     padding: 0;
     margin: 0;
 }
+
 .cards-img {
-    margin:5vh;
-    
+    margin: 6vh;
+    width: 10vw;
+    height: 35vh;
+    transition: all .2s ease-in-out; 
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
-.cards-img-obverse{
+
+.cards-img:hover {
+    transform: scale(0.95);
+}
+.cards-img-obverse {
     display: none;
-    margin:7vh;
+    margin: 7vh;
 }
+
+.sakuraCards-box {
+    border: 0.5vh solid pink;
+    border-radius: 8vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    padding-bottom: 4vh;
+}
+
 .title-header {
-    font-size: 8vh;
+    font-size: 9vh;
     text-align: center;
     color: pink;
     letter-spacing: 0.7vh;
     -webkit-text-stroke: 0.010741138560687433vh black;
-
+    border-bottom: 0.5vh solid pink;
+    padding-bottom: 5vh;
 }
 
 .sakuraCards {
     text-align: center;
-    margin-top: 4vh;
+    margin-top: 5vh;
 }
 
 .sakuraCards-title {
-    margin-top: 8vh;
-    font-size: 5vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-size: 5.5vh;
     letter-spacing: 0.5vh;
+  
 }
+
+.sakuraCards-line {
+    margin-top: 6vh;
+    height: 0.2vh;
+    background-color: pink;
+    
+}
+
+.meaning {
+    font-size: 4vh;
+}
+
+#yourFuture {
+    margin-bottom: 5vh;
+}
+
 .footer {
     background-color: pink;
     width: 100%;
     height: 10vh;
     display: flex;
     justify-content: space-around;
+    margin-top: 5vh;
 }
+
 .footer-company {
     display: flex;
     align-items: center;
     background-color: pink;
 }
-.footer-copy{
+
+.footer-copy {
     height: 3vh;
     background-color: pink;
 }
+
 .footer-text {
     font-size: 3vh;
     background-color: pink;
 }
+
 .footer-sakura {
     background-color: pink;
-
 }
