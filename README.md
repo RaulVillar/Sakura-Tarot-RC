@@ -9,7 +9,7 @@ Este es un proyecto elaborado en ReactJS realizado por Raúl Villar Fernádez y 
 	- Api de "Cardcaptor Sakura".
     
     * A nivel visual:
-    	- href= "https://6388b6e5a4bb27a7f78f96a5.mockapi.io/sakura-cards/"
+    	<a href= "https://6388b6e5a4bb27a7f78f96a5.mockapi.io/sakura-cards/"></a>
 	- Significado de las cartas.
 
 Los lenguajes de programación utilizados han sido HTML, CSS y ReactJS. 
