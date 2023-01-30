@@ -9,8 +9,8 @@ A nivel de desarrollo:
 	- Api de "Cardcaptor Sakura".
     
 A nivel visual:
-    	<a href= "https://6388b6e5a4bb27a7f78f96a5.mockapi.io/sakura-cards/"></a>
-	Significado de las cartas.
+<a href= "https://6388b6e5a4bb27a7f78f96a5.mockapi.io/sakura-cards/"></a>
+<p>Significado de las cartas</p>
 
 Los lenguajes de programación utilizados han sido HTML, CSS y ReactJS. 
 
