@@ -1,16 +1,16 @@
- Sakura-Tarot-RC by Sakura Brothers
+ Sakura-Tarot-RC by Sakura Brothers.
 
-Este es un proyecto de un React realizado por Raúl Villar Fernádez y Christian Carbajo García en el bootcamp de Factoria F5, en el cual hemos creado una página de Tarot con las cartas del manga Card Captor Sakura. Para la realización de este proyecto hemos seguido los siguientes requisitos:
+	Este es un proyecto elaborado en ReactJS realizado por Raúl Villar Fernádez y Christian Carbajo García en el bootcamp de Factoria F5, en el cual hemos creado una página de tarot con las cartas del manga "Cardcaptor Sakura". Para la realización de este proyecto hemos seguido los siguientes requisitos:
     
     * A nivel de desarrollo:
         - Responsive desing (desktop first).
         - JavaScript.
-	- React
-	- Api de CardCaptor Sakura 
+	- ReactJS.
+	- Api de "Cardcaptor Sakura".
     
     * A nivel visual:
-    	- https://6388b6e5a4bb27a7f78f96a5.mockapi.io/sakura-cards/
-	- Significado de las cartas
+    	- href= "https://6388b6e5a4bb27a7f78f96a5.mockapi.io/sakura-cards/"
+	- Significado de las cartas.
 
 Los lenguajes de programacion utilizados han sido HTML, CSS y JavaScript. 
 
