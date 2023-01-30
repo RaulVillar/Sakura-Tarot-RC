@@ -1,21 +1,22 @@
- Sakura-Tarot-RC by Sakura Brothers
+ Sakura-Tarot-RC by Sakura Brothers.
 
-Este es un proyecto de un React realizado por Raúl Villar Fernádez y Christian Carbajo García en el bootcamp de Factoria F5, en el cual hemos creado una página de Tarot con las cartas del manga Card Captor Sakura. Para la realización de este proyecto hemos seguido los siguientes requisitos:
+Este es un proyecto elaborado en ReactJS realizado por Raúl Villar Fernádez y Christian Carbajo García en el bootcamp de Factoria F5, en el cual hemos creado una página de tarot con las cartas del manga "Cardcaptor Sakura". Para la realización de este proyecto hemos seguido los siguientes requisitos:
     
-    * A nivel de desarrollo:
-        - Responsive desing (desktop first).
-        - JavaScript.
-	- React
-	- Api de CardCaptor Sakura 
+	*A nivel de desarrollo:
+        	- Responsive desing (desktop first).
+        	- JavaScript.
+		- ReactJS.
+		- Api de "Cardcaptor Sakura".
     
-    * A nivel visual:
-    	- https://6388b6e5a4bb27a7f78f96a5.mockapi.io/sakura-cards/
-	- Significado de las cartas
+	*A nivel visual:
+		-https://6388b6e5a4bb27a7f78f96a5.mockapi.io/sakura-cards/
+		-Significado de las cartas
 
-Los lenguajes de programacion utilizados han sido HTML, CSS y JavaScript. 
+Los lenguajes de programación utilizados han sido HTML, CSS y ReactJS. 
 
-| [<img src="https://avatars.githubusercontent.com/u/119947896?v=4" width=115><br><sub>Christian Carbajo García</sub>](https://github.com/ChristianCarbajo)| 
-[<img src="https://avatars.githubusercontent.com/u/119669918?v=4" width=115><br><sub>Raúl Villar</sub>](https://github.com/RaulTheViking)|
+
+| [<img src="https://avatars.githubusercontent.com/u/119947896?v=4" width=115><br><sub>Christian Carbajo García</sub>](https://github.com/ChristianCarbajo)| [<img src="https://avatars.githubusercontent.com/u/119669918?v=4" width=115><br><sub>Raúl Villar</sub>](https://github.com/RaulVillar)|
+| :---: | :---: | 
 
 
 Tecnologías usadas en este proyecto:
@@ -30,5 +31,3 @@ Tecnologías usadas en este proyecto:
   <img align="center" alt="figma" title="figma" height="50" width="80" src="https://www.protocol.com/media-library/figma-logo.png?id=29208385&width=1200&height=600&coordinates=0%2C60%2C0%2C60">
   <img align="center" alt="react" title="react" height="50" width="80" src="https://reactjs.org/logo-og.png">
 </div>
-
-
