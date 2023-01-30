@@ -30,6 +30,7 @@ Este es un proyecto elaborado en ReactJS realizado por Raúl Villar Fernádez y 
 		-Significado de las cartas.
 
 Maqueta en FIGMA: https://gyazo.com/0360f91937623d126072ae60988e69a9
+
 Los lenguajes de programación utilizados han sido HTML, CSS y ReactJS. 
 
 
