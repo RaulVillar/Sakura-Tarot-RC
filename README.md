@@ -14,8 +14,9 @@ Este es un proyecto elaborado en ReactJS realizado por Raúl Villar Fernádez y 
 
 Los lenguajes de programación utilizados han sido HTML, CSS y ReactJS. 
 
-| [<img src="https://avatars.githubusercontent.com/u/119947896?v=4" width=115><br><sub>Christian Carbajo García</sub>](https://github.com/ChristianCarbajo)| 
-| [<img src="https://avatars.githubusercontent.com/u/119669918?v=4" width=115><br><sub>Raúl Villar</sub>](https://github.com/RaulTheViking)|
+
+| [<img src="https://avatars.githubusercontent.com/u/119947896?v=4" width=115><br><sub>Christian Carbajo García</sub>](https://github.com/ChristianCarbajo)| [<img src="https://avatars.githubusercontent.com/u/119669918?v=4" width=115><br><sub>Raúl Villar</sub>](https://github.com/RaulTheViking)| [<img src="https://avatars.githubusercontent.com/u/84899058?v=4" width=115><br><sub>Celia Cueria Barcia</sub>](https://github.com/celiacueria) | [<img src="https://avatars.githubusercontent.com/u/119506074?v=4" width=115><br><sub>Elena Pulido Alvaré</sub>](https://github.com/elenapulido) | [<img src="https://avatars.githubusercontent.com/u/110385073?v=4" width=115><br><sub>Carlos Sánchez Yerga</sub>](https://github.com/Holapueblodev) |
+| :---: | :---: | :---: |  :---: |  :---: |
 
 
 Tecnologías usadas en este proyecto:
