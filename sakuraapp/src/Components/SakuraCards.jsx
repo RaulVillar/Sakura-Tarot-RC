@@ -32,9 +32,7 @@ export class Api extends React.Component {
 	}
 
 	
-	render() {
-		
-		
+	render() {	
 		const { DataisLoaded, items} = this.state;
 		if (!DataisLoaded) return
 		<div>
@@ -50,6 +48,7 @@ export class Api extends React.Component {
 				<PastCards />	
 				</div>
 				<div>
+					<h2 className="sakuraCards-title">Presente</h2>
 				<PresentCards />
 				</div>
 				<div>
