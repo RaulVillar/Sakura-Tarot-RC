@@ -104,6 +104,13 @@
     background-color: pink;
 }
 
+@media (max-width: 1500px) {
+    .cards-img {
+        width: 20vh;
+    }
+}
+
+
 @media (max-width: 800px) {
 
     .title-header {
