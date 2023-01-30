@@ -134,15 +134,9 @@
     .meaning {
         width: 40%;
         font-size: 3vh;
+        text-justify: distribute;
     }
-
-    .footer-sakura {
-        width: 10%;
-    }
-
-    .footer {
-        width: 100%;
-    }
+   
 }
 
 
@@ -150,4 +144,5 @@
     .sakuraCards-box {
         border-style: none;
     }
+   
 }

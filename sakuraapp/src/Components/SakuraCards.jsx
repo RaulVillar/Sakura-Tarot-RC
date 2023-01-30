@@ -38,19 +38,21 @@ export class Api extends React.Component {
 		</div>;
 
 		return (
-			<div className="sakuraCards">
-				<Header />
-				<div>
-					<h2 className="sakuraCards-title">Pasado</h2>
-					<PastCards />
-				</div>
-				<div>
-					<h2 className="sakuraCards-title">Presente</h2>
-				<PresentCards />
-				</div>
-				<div>
-					<h2 className="sakuraCards-title">Futuro</h2>
-					<FutureCards />
+			<div className="sakura">
+				<div className="sakuraCards">
+					<Header />
+					<div>
+						<h2 className="sakuraCards-title">Pasado</h2>
+						<PastCards />
+					</div>
+					<div>
+						<h2 className="sakuraCards-title">Presente</h2>
+					<PresentCards />
+					</div>
+					<div>
+						<h2 className="sakuraCards-title">Futuro</h2>
+						<FutureCards />
+					</div>
 				</div>
 				<Footer />
 			</div>
