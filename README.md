@@ -3,7 +3,7 @@
 Este es un proyecto elaborado en ReactJS realizado por Raúl Villar Fernádez y Christian Carbajo García en el bootcamp de Factoria F5, en el cual hemos creado una página de tarot con las cartas del manga "Cardcaptor Sakura". Para la realización de este proyecto hemos seguido los siguientes requisitos:
 
 	Historia de usuario:
-		- Como usuario
+		- Como usuario:
 		Quiero ver todas las cartas boca abajo
 		Para poder escoger tres de ellas.
 		- Como usuario:
