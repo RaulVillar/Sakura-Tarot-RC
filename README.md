@@ -2,15 +2,15 @@
 
 Este es un proyecto elaborado en ReactJS realizado por Raúl Villar Fernádez y Christian Carbajo García en el bootcamp de Factoria F5, en el cual hemos creado una página de tarot con las cartas del manga "Cardcaptor Sakura". Para la realización de este proyecto hemos seguido los siguientes requisitos:
     
-A nivel de desarrollo:
-        - Responsive desing (desktop first).
-        - JavaScript.
-	- ReactJS.
-	- Api de "Cardcaptor Sakura".
+	*A nivel de desarrollo:
+        	- Responsive desing (desktop first).
+        	- JavaScript.
+		- ReactJS.
+		- Api de "Cardcaptor Sakura".
     
-A nivel visual:
-<a href= "https://6388b6e5a4bb27a7f78f96a5.mockapi.io/sakura-cards/"></a>
-<p>Significado de las cartas</p>
+	*A nivel visual:
+		-https://6388b6e5a4bb27a7f78f96a5.mockapi.io/sakura-cards/
+		-Significado de las cartas
 
 Los lenguajes de programación utilizados han sido HTML, CSS y ReactJS. 
 
