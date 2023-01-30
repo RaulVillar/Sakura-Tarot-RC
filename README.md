@@ -15,7 +15,7 @@ A nivel visual:
 Los lenguajes de programación utilizados han sido HTML, CSS y ReactJS. 
 
 
-| [<img src="https://avatars.githubusercontent.com/u/119947896?v=4" width=115><br><sub>Christian Carbajo García</sub>](https://github.com/ChristianCarbajo)| [<img src="https://avatars.githubusercontent.com/u/119669918?v=4" width=115><br><sub>Raúl Villar</sub>](https://github.com/RaulTheViking)|
+| [<img src="https://avatars.githubusercontent.com/u/119947896?v=4" width=115><br><sub>Christian Carbajo García</sub>](https://github.com/ChristianCarbajo)| [<img src="https://avatars.githubusercontent.com/u/119669918?v=4" width=115><br><sub>Raúl Villar</sub>](https://github.com/RaulVillar)|
 | :---: | :---: | 
 
 
