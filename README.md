@@ -1,16 +1,35 @@
  Sakura-Tarot-RC by Sakura Brothers.
 
 Este es un proyecto elaborado en ReactJS realizado por Raúl Villar Fernádez y Christian Carbajo García en el bootcamp de Factoria F5, en el cual hemos creado una página de tarot con las cartas del manga "Cardcaptor Sakura". Para la realización de este proyecto hemos seguido los siguientes requisitos:
-    
-	*A nivel de desarrollo:
+
+	Historia de usuario:
+		- Como usuario:
+		Quiero ver todas las cartas boca abajo
+		Para poder escoger tres de ellas.
+		- Como usuario:
+		Quiero ver la carta elegida para mi pasado
+		Para poder intuir cual es mi pasado.
+		- Como usuario:
+		Quiero ver la carta elegida para mi presente
+		Para poder intuir cual es mi presente.
+		- Como usuario:
+		Quiero ver la carta elegida para mi futuro
+		Para poder intuir cual es mi futuro.
+		- Como usuario:
+		Quiero ver el significado de la lectura de las 3 cartas
+		Para poder saber cual es mi destino.
+	
+	A nivel de desarrollo:
         	- Responsive desing (desktop first).
         	- JavaScript.
 		- ReactJS.
 		- Api de "Cardcaptor Sakura".
     
-	*A nivel visual:
+	A nivel visual:
 		-https://6388b6e5a4bb27a7f78f96a5.mockapi.io/sakura-cards/
-		-Significado de las cartas
+		-Significado de las cartas.
+
+Maqueta en FIGMA: https://gyazo.com/0360f91937623d126072ae60988e69a9
 
 Los lenguajes de programación utilizados han sido HTML, CSS y ReactJS. 
 
@@ -31,3 +50,4 @@ Tecnologías usadas en este proyecto:
   <img align="center" alt="figma" title="figma" height="50" width="80" src="https://www.protocol.com/media-library/figma-logo.png?id=29208385&width=1200&height=600&coordinates=0%2C60%2C0%2C60">
   <img align="center" alt="react" title="react" height="50" width="80" src="https://reactjs.org/logo-og.png">
 </div>
+
