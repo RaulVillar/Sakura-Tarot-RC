@@ -47,7 +47,7 @@ export class Api extends React.Component {
 					</div>
 					<div>
 						<h2 className="sakuraCards-title">Presente</h2>
-					<PresentCards />
+						<PresentCards />
 					</div>
 					<div>
 						<h2 className="sakuraCards-title">Futuro</h2>

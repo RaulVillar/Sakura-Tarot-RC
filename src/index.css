@@ -57,14 +57,12 @@
     margin-bottom: 5vh;
     font-size: 5.5vh;
     letter-spacing: 0.5vh;
-
 }
 
 .sakuraCards-line {
     margin-top: 6vh;
     height: 0.2vh;
     background-color: pink;
-
 }
 
 .meaning {
@@ -143,7 +141,7 @@
         font-size: 3vh;
         text-justify: distribute;
     }
-   
+
 }
 
 
@@ -151,5 +149,5 @@
     .sakuraCards-box {
         border-style: none;
     }
-   
+
 }
