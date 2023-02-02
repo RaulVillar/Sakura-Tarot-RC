@@ -1,5 +1,6 @@
 import copy from "../Pictures/copy.png";
 import sakura from "../Pictures/Sakura.png"
+
 export const Footer = () => {
     return (
         <div className="footer">
